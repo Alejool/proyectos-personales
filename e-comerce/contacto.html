@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="https://transcointer.com/wp-content/uploads/2022/06/YJSONIGRfrT9mqtWhYSZ.jpg ">
+
+  <title>E-comerce-contacto</title>
+
+  
+</head>
+<body>
+  <header>
+    <h1 class="nombre-sitio">Tienda <span>Muebles</span></h1>
+  
+     <div class="contenedor-navegacion">
+       <nav class="navegacion contenedor
+       ">
+         <a href="index.html" class="enlace">Inicio</a>
+         <a href="nosotros.html" class="enlace">Nosotros</a>
+         <a href="tienda.html#" class="enlace">Tienda</a>
+         <a href="blog.html" class="enlace">Blog</a>
+         <a href="galeria.html" class="enlace">Galeria</a>
+         <a href="contacto.html" class="enlace">contacto</a>
+       </nav>
+     </div>
+
+   </header>
+
+
+   <main class=" contenedor mt main-contacto">
+    <h2>Contacto</h2>
+
+    <form action="" class="form ">
+
+      <fieldset >
+        <legend class="titulo-form ">Tus Datos</legend>
+
+     <div class="tus-datos">
+         <div class=" campo">
+           <label for="nombre">Nombre </label>
+           <input id="nombre" type="text" placeholder="Tu nombre">
+         </div>
+      
+         <div class=" campo">
+           <label for="asunto">Asunto</label>
+           <input id="asunto" type="text" placeholder="Asunto">
+         </div>
+      
+          <div class="campo">
+            <label for="email"> E-mail </label>
+            <input id="email" type="email" placeholder="Email">
+          </div>
+           
+          <div class="campo">
+            <label for="telefono">Teléfono</label>
+            <input id="telefono" type="tel" placeholder="Telefono">
+          </div>
+           
+          <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea name="" id="mensaje"  rows="10"></textarea>
+          </div>
+          
+     </div>
+        
+        
+      </fieldset>
+      
+      <fieldset>
+        <legend class="titulo-form">Pais</legend>
+        <div class="campo mb">
+          <label  for="select">Pais </label>
+          <select class="text-center" id="select">
+            <option disabled value="">-- Seleccione --</option>
+            <option selected value="CO" >Colombia</option>
+            <option value="AR">Agentina</option>
+            <option value="MX">México</option>
+            <option value="CH">Chile</option>
+            <option value="EC">Ecuador</option>
+            <option value="PR">Peru</option>
+            <option value="VZ">Venezuela</option>
+            <option value="ES">España</option>
+            
+          </select>
+        </div>
+
+
+        <div class="mb campo">
+          <label for="date">Fecha</label>
+          <input id="date" type="date">
+        </div>
+
+        </fieldset>
+
+        <fieldset>
+          <legend class="titulo-form">Información Extra</legend>
+          
+          <div class="campo">
+            <label for="cliente"> Cliente </label>
+            <input type="radio" name="tipo" id="cliente">
+          </div>
+          <div class="campo">
+            <label for="proveedor"> Proveedor </label>
+            <input type="radio" name="tipo" id="proveedor">
+          </div>
+
+          <div class="campo">
+            <label for="categorias">Categoría de interés</label>
+            <input list="categorias" name="categorias" >
+
+          <datalist id="categorias">
+            <option value="Cocina">
+            <option value="exteriores">
+            <option value="recámaras">
+            <option value="Oficina">
+            <option value="T.v">
+          </datalist>
+          </div>
+          </fieldset>
+
+          <input class="btn " type="submit" value="Enviar formulario">
+
+    </form>
+
+   </main>
+
+   <footer class="footer contenedor-navegacion">
+    <div class="footer-categorias contenedor">
+
+      <div class="footer-categoria">
+        <h2>Categoria</h2>
+
+         <div class="footer-menu">
+         <a href="#">Cocina</a>
+         <a href="#">Oficina</a>
+         <a href="#">Jardin</a>
+         <a href="#">Cochera</a>
+         <a href="#">Dormitorio</a>
+         </div>
+      </div>
+      <div class="footer-categoria">
+        <h2>Sobre Nosotros</h2>
+        <div class="footer-menu">
+          <a href="#">Nuestra Historia</a>
+          <a href="#">Misión, Visión y Valores</a>
+          <a href="#">Carreras</a>
+          <a href="#">Politica de privacidad</a>
+          <a href="#">Término del servicio</a>
+        </div>
+
+      </div>
+
+      <div class="footer-categoria">
+
+        <h2>Soporte</h2>
+
+        <div class="footer-menu">
+        <a href="#">Preguntas Frecuentes</a>
+        <a href="#">Ayuda en Linea</a>
+        <a href="#">Confianza y Seguridad</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <p class="footer-derechos text-center">Todos los derechos reservados: <span>Alejandro Olarte </span></p>
+
+
+   <script src="js/app.js"></script>
+</body>
