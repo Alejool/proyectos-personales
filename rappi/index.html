@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="build/css/app.css">
+  <title>Rappi</title>
+</head>
+<body>
+  
+  <header class="header contenedor" >
+    <div class="header__logo">
+      <img src="build/img/logo.svg" alt="logo del sitio">
+    </div>
+    <div class="header__nav">
+      <a href="#" class="nav__enlace">Iniciar Sesión</a>
+      <a href="#" class="nav__enlace">Crear Cuenta</a>
+      <a href="#" class=" nav__enlace nav__enlace--registrar">Registrar restaurante</a>
+    </div>
+  </header>
+
+
+  <section class="form contenedor">
+    <div class="form__grid">
+
+      <div class="form__contenido">
+        <h2 class="form__heading">
+          Encuentra y Pide comida de tu restaurante favorito
+        </h2>
+
+        <div class="form__buscar">
+          <div class="form__campo">
+            <label for="restaurant" class="form__label">Restaurante</label>
+            <input type="text" class="form__input" id="restaurant" placeholder="El rincon">
+          </div>
+          <div class="form__campo">
+            <label for="restaurant" class="form__label">Platillo</label>
+            <input type="text" class="form__input" id="restaurant" placeholder="pizza, ensalada">
+          </div>
+
+          <div class="form__campo">
+            <input type="submit" class="form__input" value="Buscar">
+          </div>
+
+        </div>
+      </div>
+      <div class="form__imagen">
+        <img src="build/img/dibujo_repartidor.svg" alt="">
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="pasos">
+    <img src="build/img/wave.svg" alt="">
+   <div class="contenido__pasos ">
+     <h2 class="pasos__heading">
+       ¿cómo funciona? <span class="pasos__heading--desciption">
+         tan fácil como 1, 2 y 3
+       </span>
+       </h2>
+
+       <div class="pasos__cards">
+
+        <div class="card">
+        <picture class="card__imagen">
+          <source srcset="build/img/paso_1.avif" type="image/avif">
+          <source srcset="build/img/paso_1.webp" type="image/webp">
+          <img loading="lazy" width="500" height="300" src="build/img/paso_1.jpg" alt="">
+        </picture>
+        </div>
+
+          <div class="card">
+          <picture class="card__imagen">
+            <source srcset="build/img/paso_2.avif" type="image/avif">
+            <source srcset="build/img/paso_2.webp" type="image/webp">
+            <img loading="lazy" width="500" height="300" src="build/img/paso_2.jpg" alt="">
+          </picture>
+          </div>
+
+            <div class="card">
+            <picture class="card__imagen">
+              <source srcset="build/img/paso_3.avif" type="image/avif">
+              <source srcset="build/img/paso_3.webp" type="image/webp">
+              <img class="testimonio__calificacion" loading="lazy" width="500" height="300" src="build/img/paso_3.jpg" alt="">
+            </picture>
+            </div>
+       </div>
+   </div>
+    
+  </section>
+
+
+  <section class="testimoniales contenedor ">
+    <h2 class="testimoniales__title">
+      Testimoniales
+    </h2>
+
+    <div class="testimoniales__grid">
+
+      <div class="testimonio">
+
+        <div class="testimonio__header">
+         <picture class="testimonio__imagen">
+          <source srcset="build/img/testimonial1.avif" type="image/avif">
+          <source srcset="build/img/testimonial1.webp" type="image/webp">
+          <img   loading="lazy" width="500" height="300" src="build/img/testimonial1.jpg" alt="">
+         </picture>
+
+         <div class="testimonio__info">
+          <p class="testimonio__nombre">Juan Perez</p>
+          <picture >
+            <source srcset="build/img/estrellas.avif" type="image/avif">
+            <source srcset="build/img/estrellas.webp" type="image/webp">
+            <img class="testimonio__calificacion" loading="lazy" width="500" height="300" src="build/img/estrellas.jpg" alt="">
+          </picture>
+          </div>
+
+        </div> <!--testimonio__header-->
+
+        <blockquote class="testimonio__texto">    
+            Una excelente app, puedo seleccionar de una gran cantidad de opciones y pagar en tarjeta o efectivo según me convenga.
+        </blockquote>
+      </div> <!--testimonio-->
+
+      <div class="testimonio">
+
+        <div class="testimonio__header">
+         <picture class="testimonio__imagen">
+          <source srcset="build/img/testimonial3.avif" type="image/avif">
+          <source srcset="build/img/testimonial3.webp" type="image/webp">
+          <img   loading="lazy" width="500" height="300" src="build/img/testimonial3.jpg" alt="">
+         </picture>
+
+         <div class="testimonio__info">
+          <p class="testimonio__nombre">José Narvaez</p>
+          <picture class="testimonio__calificacion">
+            <source srcset="build/img/estrellas.avif" type="image/avif">
+            <source srcset="build/img/estrellas.webp" type="image/webp">
+            <img loading="lazy" width="500" height="300" src="build/img/estrellas.jpg" alt="">
+          </picture>
+          </div>
+
+        </div> <!--testimonio__header-->
+
+        <blockquote class="testimonio__texto">    
+            Una excelente app, puedo seleccionar de una gran cantidad 
+        </blockquote>
+      </div> <!--testimonio-->
+
+      <div class="testimonio">
+
+        <div class="testimonio__header">
+         <picture class="testimonio__imagen">
+          <source srcset="build/img/testimonial2.avif" type="image/avif">
+          <source srcset="build/img/testimonial2.webp" type="image/webp">
+          <img   loading="lazy" width="500" height="300" src="build/img/testimonial2.jpg" alt="">
+         </picture>
+
+         <div class="testimonio__info">
+          <p class="testimonio__nombre">Clara Patricia</p>
+          <picture class="testimonio__calificacion">
+            <source srcset="build/img/estrellas.avif" type="image/avif">
+            <source srcset="build/img/estrellas.webp" type="image/webp">
+            <img loading="lazy" width="500" height="300" src="build/img/estrellas.jpg" alt="">
+          </picture>
+          </div>
+
+        </div> <!--testimonio__header-->
+
+        <blockquote class="testimonio__texto">    
+            
+          Una excelente app, puedo seleccionar de una gran cantidad de opciones y pagar en tarjeta o efectivo según me convenga. efectivo según me convenga.
+                
+        </blockquote>
+      </div> <!--testimonio-->
+
+      <div class="testimonio">
+
+        <div class="testimonio__header">
+         <picture class="testimonio__imagen">
+          <source srcset="build/img/testimonial4.avif" type="image/avif">
+          <source srcset="build/img/testimonial4.webp" type="image/webp">
+          <img  loading="lazy" width="500" height="300" src="build/img/testimonial4.jpg" alt="">
+         </picture>
+
+         <div class="testimonio__info">
+          <p class="testimonio__nombre">Martha Ramirez</p>
+          <picture class="testimonio__calificacion">
+            <source srcset="build/img/estrellas.avif" type="image/avif">
+            <source srcset="build/img/estrellas.webp" type="image/webp">
+            <img loading="lazy" width="500" height="300" src="build/img/estrellas.jpg" alt="">
+          </picture>
+          </div>
+
+        </div> <!--testimonio__header-->
+
+        <blockquote class="testimonio__texto">    
+            Una excelente app, puedo seleccionar de una gran cantidad de opciones y pagar en tarjeta o efectivo según me convenga.
+        </blockquote>
+      </div> <!--testimonio-->
+
+      <div class="testimonio">
+
+        <div class="testimonio__header">
+         <picture class="testimonio__imagen">
+          <source srcset="build/img/testimonial5.avif" type="image/avif">
+          <source srcset="build/img/testimonial5.webp" type="image/webp">
+          <img  loading="lazy" width="500" height="300" src="build/img/testimonial5.jpg" alt="">
+         </picture>
+
+         <div class="testimonio__info">
+          <p class="testimonio__nombre">Fernanda Zapata</p>
+          <picture >
+            <source srcset="build/img/estrellas.avif" type="image/avif">
+            <source srcset="build/img/estrellas.webp" type="image/webp">
+            <img  loading="lazy" width="500" height="300" src="build/img/estrellas.jpg" alt="">
+          </picture>
+          </div>
+
+        </div> <!--testimonio__header-->
+
+        <blockquote class="testimonio__texto">    
+            Una excelente app, puedo seleccionar de una gran cantidad de opciones y pagar en tarjeta o efectivo según me convenga.
+        </blockquote>
+      </div> <!--testimonio-->
+
+
+    </div>
+
+  </section>
+
+
+  <section class="restaurantes" >
+    <div class="restaurantes__contenido contenedor">
+
+    <h2 class="restaurantes__titulo">Restaurantes Favoritos</h2>
+    <div class="restaurantes__grid">
+     
+      <div class="restaurante">
+        <div class="restaurante__imagen">
+          <picture>
+            <source srcset="build/img/logo_ensaladas.avif" type="image/avif">
+            <source srcset="build/img/logo_ensaladas.webp" type="image/webp">
+            <img loading="lazy" width="500" height="300" src="build/img/logo_ensaladas.jpg" alt="">
+          </picture>
+        </div>
+        <div class="resturante__info">
+          <picture>
+            <source srcset="build/img/estrellas.avif" type="image/avif">
+            <source srcset="build/img/estrellas.webp" type="image/webp">
+            <img class="restaurante__estrellas" loading="lazy" width="500" height="300" src="build/img/estrellas.jpg" alt="">
+          </picture>
+
+          <h3 class="restaurante__title">
+            Green Ensalada
+          </h3>
+
+          <p class="restaurante__texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur autem delectus nulla cum obcaecati deleniti, non rem reprehenderit, recusandae saepe dolorem inventore quis ipsa minus fuga hic labore numquam! Nemo.
+          </p>
+        </div>
+      </div> <!--restaurante-->
+
+      <div class="restaurante">
+        <div class="restaurante__imagen">
+          <picture>
+            <source srcset="build/img/logo_ensaladas.avif" type="image/avif">
+            <source srcset="build/img/logo_ensaladas.webp" type="image/webp">
+            <img loading="lazy" width="500" height="300" src="build/img/logo_ensaladas.jpg" alt="">
+          </picture>
+        </div>
+        <div class="resturante__info">
+          <picture>
+            <source srcset="build/img/estrellas.avif" type="image/avif">
+            <source srcset="build/img/estrellas.webp" type="image/webp">
+            <img class="restaurante__estrellas" loading="lazy" width="500" height="300" src="build/img/estrellas.jpg" alt="">
+          </picture>
+
+          <h3 class="restaurante__title">
+            Green Ensalada
+          </h3>
+
+          <p class="restaurante__texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur autem delectus nulla cum obcaecati deleniti, non rem reprehenderit, recusandae saepe dolorem inventore quis ipsa minus fuga hic labore numquam! Nemo.
+          </p>
+        </div>
+      </div> <!--restaurante-->
+
+      <div class="restaurante">
+        <div class="restaurante__imagen">
+          <picture>
+            <source srcset="build/img/logo_ensaladas.avif" type="image/avif">
+            <source srcset="build/img/logo_ensaladas.webp" type="image/webp">
+            <img loading="lazy" width="500" height="300" src="build/img/logo_ensaladas.jpg" alt="">
+          </picture>
+        </div>
+        <div class="resturante__info">
+          <picture>
+            <source srcset="build/img/estrellas.avif" type="image/avif">
+            <source srcset="build/img/estrellas.webp" type="image/webp">
+            <img class="restaurante__estrellas" loading="lazy" width="500" height="300" src="build/img/estrellas.jpg" alt="">
+          </picture>
+
+          <h3 class="restaurante__title">
+            Green Ensalada
+          </h3>
+
+          <p class="restaurante__texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur autem delectus nulla cum obcaecati deleniti, non rem reprehenderit, recusandae saepe dolorem inventore quis ipsa minus fuga hic labore numquam! Nemo.
+          </p>
+        </div>
+      </div> <!--restaurante-->
+
+      <div class="restaurante">
+        <div class="restaurante__imagen">
+          <picture>
+            <source srcset="build/img/logo_ensaladas.avif" type="image/avif">
+            <source srcset="build/img/logo_ensaladas.webp" type="image/webp">
+            <img loading="lazy" width="500" height="300" src="build/img/logo_ensaladas.jpg" alt="">
+          </picture>
+        </div>
+        <div class="resturante__info">
+          <picture>
+            <source srcset="build/img/estrellas.avif" type="image/avif">
+            <source srcset="build/img/estrellas.webp" type="image/webp">
+            <img class="restaurante__estrellas" loading="lazy" width="500" height="300" src="build/img/estrellas.jpg" alt="">
+          </picture>
+
+          <h3 class="restaurante__title">
+            Green Ensalada
+          </h3>
+
+          <p class="restaurante__texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur autem delectus nulla cum obcaecati deleniti, non rem reprehenderit, recusandae saepe dolorem inventore quis ipsa minus fuga hic labore numquam! Nemo.
+          </p>
+        </div>
+      </div> <!--restaurante-->
+
+      <div class="restaurante">
+        <div class="restaurante__imagen">
+          <picture>
+            <source srcset="build/img/logo_ensaladas.avif" type="image/avif">
+            <source srcset="build/img/logo_ensaladas.webp" type="image/webp">
+            <img loading="lazy" width="500" height="300" src="build/img/logo_ensaladas.jpg" alt="">
+          </picture>
+        </div>
+        <div class="resturante__info">
+          <picture>
+            <source srcset="build/img/estrellas.avif" type="image/avif">
+            <source srcset="build/img/estrellas.webp" type="image/webp">
+            <img class="restaurante__estrellas" loading="lazy" width="500" height="300" src="build/img/estrellas.jpg" alt="">
+          </picture>
+
+          <h3 class="restaurante__title">
+            Green Ensalada
+          </h3>
+
+          <p class="restaurante__texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur autem delectus nulla cum obcaecati deleniti, non rem reprehenderit, recusandae saepe dolorem inventore quis ipsa minus fuga hic labore numquam! Nemo.
+          </p>
+        </div>
+      </div> <!--restaurante-->
+
+      <div class="restaurante">
+        <div class="restaurante__imagen">
+          <picture>
+            <source srcset="build/img/logo_ensaladas.avif" type="image/avif">
+            <source srcset="build/img/logo_ensaladas.webp" type="image/webp">
+            <img loading="lazy" width="500" height="300" src="build/img/logo_ensaladas.jpg" alt="">
+          </picture>
+        </div>
+        <div class="resturante__info">
+          <picture>
+            <source srcset="build/img/estrellas.avif" type="image/avif">
+            <source srcset="build/img/estrellas.webp" type="image/webp">
+            <img class="restaurante__estrellas" loading="lazy" width="500" height="300" src="build/img/estrellas.jpg" alt="">
+          </picture>
+
+          <h3 class="restaurante__title">
+            Green Ensalada
+          </h3>
+
+          <p class="restaurante__texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur autem delectus nulla cum obcaecati deleniti, non rem reprehenderit, recusandae saepe dolorem inventore quis ipsa minus fuga hic labore numquam! Nemo.
+          </p>
+        </div>
+      </div> <!--restaurante-->
+      
+    </div>
+    </div>
+  </section>
+
+  <section class="repartidores contenedor ">
+    <h2 class="repartidores__title">Gana dinero con AppComida</h2>
+
+    <div class="repartidores__grid">
+      <div class="repartidores__imagen">
+        <picture>
+          <source srcset="build/img/repartidor.avif" type="image/avif">
+          <source srcset="build/img/repartidor.webp" type="image/webp">
+          <img loading="lazy" width="500" height="300" src="build/img/repartidor.jpg" alt="">
+        </picture>
+      </div>
+        <div class="repartidores__texto">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim animi laudantium quia magnam autem aspernatur est inventore maxime doloremque facere nulla optio totam, tempore pariatur rem fugiat omnis voluptate? Exercitationem.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos corrupti aspernatur optio pariatur possimus cupiditate aliquid. Libero, maxime perspiciatis voluptas enim quidem quas, cupiditate animi, sit officia iste aspernatur fugiat!</p>
+
+          <a class=" nav__enlace nav__enlace--registrar">
+            Más información </a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="descargar contenedor">
+    <div class="descargar__info">
+      <h2 class="descargar__title">
+        Descarga la App
+      </h2>
+      <p class="descargar__disponible">
+        Disponible para Android y IOS
+      </p>
+
+      <div class="descargar__tiendas">
+        <a href="#" class="tienda__enlace">
+          <img src="build/img/tienda-android.svg" alt="tienda android svg">
+        </a>
+
+        <a href="#" class="tienda__enlace">
+          <img src="build/img/tienda-apple.svg" alt="tienda apple svg">
+        </a>
+      </div>
+      </div>
+
+      <div class="descargar__imagen">
+        <picture>
+          <source srcset="build/img/app.webp" type="image/webp">
+          <source srcset="build/img/app.avif" type="image/avif">
+          <img loading="lazy" width="500" height="300" src="build/img/app.jpg" alt="">
+        </picture>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer ">
+    <div class="footer__contenido contenedor">
+
+      <div class="footer__nosotros">
+        <h3 class="footer__title">Nosotros</h3>
+        <p class="footer__info">Nos dedicamos a ofrecer los mejores servicios a nuestros clientes. haz parte de ellos y no te arrepentiras. ¡ven y disfruta!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consectetur neque nostrum est possimus. Alias sint esse laudantium dolores omnis. Magnam, aspernatur adipisci totam explicabo corporis eligendi illum voluptatum sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, quo. Ad iure repudiandae quae ratione consequuntur qui voluptatum aperiam, quia recusandae obcaecati, eum earum voluptatibus corporis numquam veniam vitae autem.</p>
+      </div>
+
+      <div class="footer__nav">
+        <h3 class="footer__title">Navegación</h3>
+
+       <div class="footer__enlaces">
+         <a href="#" class="footer__enlace">Header</a>
+         <a href="#" class="footer__enlace">Pasos</a>
+         <a href="#" class="footer__enlace">Contacto</a>
+         <a href="#" class="footer__enlace">Testimoniales</a>
+         <a href="#" class="footer__enlace">Restaurantes</a>
+       </div>
+      </div>
+
+    </div>
+
+    
+      <p class="footer__creditos ">App Comida. Todos los derechos reservados </p>
+    
+  </footer>
+
+</body>
+</html>

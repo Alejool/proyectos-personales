@@ -462,15 +462,15 @@ template {
 }
 
 .notavif.notwebp .sobre-tech {
-  background-image: linear-gradient(to bottom, transparent 50%, #2371ba 0%), url(../../../img/imagen-mujer.jpg);
+  background-image: linear-gradient(to bottom, transparent 50%, #2371ba 0%), url(../../img/imagen-mujer.jpg);
 }
 
 .avif .sobre-tech {
-  background-image: linear-gradient(to bottom, transparent 50%, #2371ba 0%), url(../../../img/imagen-mujer.avif);
+  background-image: linear-gradient(to bottom, transparent 50%, #2371ba 0%), url(../../img/imagen-mujer.avif);
 }
 
 .webp .sobre-tech {
-  background-image: linear-gradient(to bottom, transparent 50%, #2371ba 0%), url(../../../img/imagen-mujer.webp);
+  background-image: linear-gradient(to bottom, transparent 50%, #2371ba 0%), url(../../img/imagen-mujer.webp);
 }
 
 .sobre-tech {
@@ -499,13 +499,13 @@ template {
 
 @media (min-width: 768px) {
   .notavif.notwebp .sobre-tech {
-    background-image: linear-gradient(to left, transparent 50%, #2371ba 0%), url(../../../img/imagen-mujer.jpg);
+    background-image: linear-gradient(to left, transparent 50%, #2371ba 0%), url(../../img/imagen-mujer.jpg);
   }
   .avif .sobre-tech {
-    background-image: linear-gradient(to left, transparent 50%, #2371ba 0%), url(../../../img/imagen-mujer.avif);
+    background-image: linear-gradient(to left, transparent 50%, #2371ba 0%), url(../../img/imagen-mujer.avif);
   }
   .webp .sobre-tech {
-    background-image: linear-gradient(to left, transparent 50%, #2371ba 0%), url(../../../img/imagen-mujer.webp);
+    background-image: linear-gradient(to left, transparent 50%, #2371ba 0%), url(../../img/imagen-mujer.webp);
   }
   .sobre-tech {
     background-position: right center;
@@ -557,7 +557,7 @@ template {
 }
 
 .modelo:last-child {
-  background-image: url(../../../img/modelo-z.svg);
+  background-image: url(../../img/modelo-z.svg);
   background-color: #2371ba;
   color: rgb(245, 242, 242);
   background-size: 17rem;
@@ -570,12 +570,12 @@ template {
 }
 
 .modelo:nth-child(2) {
-  background-image: url(../../../img/modelo-y.svg);
+  background-image: url(../../img/modelo-y.svg);
   background-size: 14rem;
 }
 
 .modelo:first-child {
-  background-image: url(../../../img/modelo-x.svg);
+  background-image: url(../../img/modelo-x.svg);
   margin-bottom: 0;
   background-size: 14rem;
 }
@@ -667,13 +667,13 @@ template {
 
 @media (min-width: 768px) {
   .notavif.notwebp .newsletter {
-    background-image: linear-gradient(to right, transparent 50%, rgb(245, 242, 242) 0%), url(../../../img/newsletter.jpg);
+    background-image: linear-gradient(to right, transparent 50%, rgb(245, 242, 242) 0%), url(../../img/newsletter.jpg);
   }
   .avif .newsletter {
-    background-image: linear-gradient(to right, transparent 50%, rgb(245, 242, 242) 0%), url(../../../img/newsletter.avif);
+    background-image: linear-gradient(to right, transparent 50%, rgb(245, 242, 242) 0%), url(../../img/newsletter.avif);
   }
   .webp .newsletter {
-    background-image: linear-gradient(to right, transparent 50%, rgb(245, 242, 242) 0%), url(../../../img/newsletter.webp);
+    background-image: linear-gradient(to right, transparent 50%, rgb(245, 242, 242) 0%), url(../../img/newsletter.webp);
   }
   .newsletter {
     background-position: right;
@@ -698,15 +698,15 @@ template {
     margin-bottom: 1rem;
   }
   .newsletter {
-    background-image: linear-gradient(to right, transparent 50%, rgb(245, 242, 242) 0%), url(../../../img/newsletter.webp);
+    background-image: linear-gradient(to right, transparent 50%, rgb(245, 242, 242) 0%), url(../../img/newsletter.webp);
   }
   .newsletter {
-    background-image: linear-gradient(to right, transparent 50%, rgb(245, 242, 242) 0%), url(../../../img/newsletter.jpg);
+    background-image: linear-gradient(to right, transparent 50%, rgb(245, 242, 242) 0%), url(../../img/newsletter.jpg);
   }
 }
 @media (min-width: 992px) {
   .newsletter {
-    background-image: linear-gradient(to right, transparent 50%, rgb(245, 242, 242) 0%), url(../../../img/newsletter.avif);
+    background-image: linear-gradient(to right, transparent 50%, rgb(245, 242, 242) 0%), url(../../img/newsletter.avif);
     background-position: top left;
     background-size: 100%, 85rem;
   }

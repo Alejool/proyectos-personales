@@ -411,7 +411,7 @@ template {
 .header {
   min-height: 60rem;
   color: rgb(233, 230, 230);
-  background-image: url(../../../img/hero.jpg);
+  background-image: url(../../img/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right center;
@@ -459,7 +459,7 @@ template {
 .contacto a::before {
   content: "";
   display: block;
-  background-image: url(../../../img/telefono.png);
+  background-image: url(../../img/telefono.png);
   width: 30px;
   height: 30px;
   background-repeat: no-repeat;
@@ -515,7 +515,7 @@ template {
 .nosotros {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  background-image: url(../../../img/nosotros.jpg);
+  background-image: url(../../img/nosotros.jpg);
   background-repeat: no-repeat;
   background-position: bottom center;
 }
@@ -560,7 +560,7 @@ template {
 }
 
 .modelo:first-child {
-  background-image: url(../../../img/modelo_basico.jpg);
+  background-image: url(../../img/modelo_basico.jpg);
 }
 @media (min-width: 769px) {
   .modelo:first-child .info-modelo {
@@ -569,7 +569,7 @@ template {
 }
 
 .modelo:nth-child(2) {
-  background-image: url(../../../img/modelo_premier.jpg);
+  background-image: url(../../img/modelo_premier.jpg);
 }
 @media (min-width: 769px) {
   .modelo:nth-child(2) .info-modelo {
@@ -578,7 +578,7 @@ template {
 }
 
 .modelo:last-child {
-  background-image: url(../../../img/modelo_elite.jpg);
+  background-image: url(../../img/modelo_elite.jpg);
 }
 
 .info-modelo {
@@ -650,7 +650,7 @@ template {
 
 .footer {
   height: 50rem;
-  background-image: url(../../../img/footer_bg.jpg);
+  background-image: url(../../img/footer_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
